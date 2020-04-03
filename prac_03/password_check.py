@@ -13,6 +13,7 @@ def main():
 
 
 def get_password(minimum_length):
+    """Get a valid password with at least 6 characters."""
     password = input("Please enter a valid password with at least {} characters: ".format(minimum_length))
     while len(password) < MINIMUM_LENGTH:
         print("Your password is invalid.")
@@ -21,6 +22,7 @@ def get_password(minimum_length):
 
 
 def get_asterisks(password):
+    """Print as many asterisks as the length of the given password."""
     print(len(password) * "*")
 
 
