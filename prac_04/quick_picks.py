@@ -13,9 +13,9 @@ def main():
     for i in range(number_of_picks):
         quick_picks = []
         for pick in range(PICKS_PER_LINE):
-            pick = random.randint(1, 46)
+            pick = random.randint(1, 45)
             while pick in quick_picks:
-                pick = random.randint(1, 46)
+                pick = random.randint(1, 45)
             quick_picks.append(pick)
         quick_picks.sort()
         print(" ".join(repr(e) for e in quick_picks))
