@@ -1,6 +1,7 @@
 """
-CP1404/CP5632 Practical
-List comprehensions
+Author: Han Su
+Date: 23/04/2020
+https://github.com/HanSu52/cp1404practicals
 """
 
 names = ["Bob", "Angel", "Jimi", "Alan", "Ada"]
